@@ -1,0 +1,124 @@
+</* Подключаем тот самый шрифт Tahoma */
+body {
+    background-color: #5A7EDC; /* Классический синий фон рабочего стола XP */
+    font-family: "Tahoma", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Окно в стиле Windows XP */
+.xp-window {
+    width: 650px;
+    background-color: #ECE9D8; /* Бежевый цвет окон XP */
+    border: 3px solid #0054E3;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Синий заголовок окна */
+.xp-title-bar {
+    background: linear-gradient(to bottom, #0058E6 0%, #004CB3 10%, #0058E6 100%);
+    color: white;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.xp-system-buttons .xp-btn {
+    background: linear-gradient(to bottom, #76A5EE 0%, #4372DB 100%);
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 1px 6px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+.xp-system-buttons .xp-close {
+    background: linear-gradient(to bottom, #F28C73 0%, #D93913 100%);
+}
+
+/* Меню браузера IE */
+.ie-menu {
+    background-color: #ECE9D8;
+    border-bottom: 1px solid #C0C0C0;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.ie-menu span {
+    margin-right: 12px;
+    cursor: pointer;
+}
+.ie-menu span:hover {
+    background-color: #B5B5B5;
+}
+
+/* Основной контент */
+.xp-content {
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #919B9C;
+    text-align: center;
+}
+
+h1 {
+    color: #004CB3;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.status-text {
+    font-style: italic;
+    color: #555;
+}
+
+.features-box {
+    text-align: left;
+    background-color: #F1F1F1;
+    border: 1px dashed #004CB3;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+/* Кнопка скачивания */
+.ie-download-btn {
+    display: inline-block;
+    background: linear-gradient(to bottom, #00E600 0%, #009900 100%);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #004d00;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.ie-download-btn:hover {
+    background: linear-gradient(to bottom, #00FF00 0%, #00B300 100%);
+}
+
+.winrar-tip {
+    font-size: 11px;
+    color: #777;
+}
+
+/* Статус бар внизу */
+.ie-status-bar {
+    background-color: #ECE9D8;
+    border-top: 1px solid #A0A0A0;
+    padding: 3px 10px;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+}
+
